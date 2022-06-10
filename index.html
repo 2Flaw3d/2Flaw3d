@@ -1,0 +1,55 @@
+<html>
+<head>
+    <title>Hug&Headbutt counter :D</title>
+</head>
+
+<body>
+
+    <div style="float:left; margin:10px">
+    <script type="text/javascript">
+    var clicks = 0;
+    function onClick() {
+        clicks += 1;
+        document.getElementById("clicks").innerHTML = clicks;
+    };
+    </script>
+    <button type="button" onClick="onClick()">Abbraccia Mary</button>
+    <p>Abbracci da dare a Mary: <a id="clicks">0</a></p>
+    
+    <script type="text/javascript">
+    var clicks2 = 0;
+    function onClick2() {
+        clicks2 += 1;
+        document.getElementById("clicks2").innerHTML = clicks2;
+    };
+    </script>
+    <button type="button" onClick="onClick2()">Dai una testata a Mary</button>
+    <p>Testate da dare a Mary: <a id="clicks2">0</a></p>
+    </div>
+    
+    
+    <div style="float:left; margin:10px">
+    <script type="text/javascript">
+    var clicks3 = 0;
+    function onClick3() {
+        clicks3 += 1;
+        document.getElementById("clicks3").innerHTML = clicks;
+    };
+    </script>
+    <button type="button" onClick="onClick3()">Abbraccia Fede</button>
+    <p>Abbracci da dare a Fede: <a id="clicks3">0</a></p>
+    
+    <script type="text/javascript">
+    var clicks4 = 0;
+    function onClick4() {
+        clicks4 += 1;
+        document.getElementById("clicks4").innerHTML = clicks2;
+    };
+    </script>
+    <button type="button" onClick="onClick4()">Dai una testata a Fede</button>
+    <p>Testate da dare a Fede: <a id="clicks4">0</a></p>
+    </div>
+
+
+</body>
+</html>
